@@ -1,0 +1,11 @@
+r = []
+while True:
+    print('Press (-1) to send the numbers')
+    n = int(input(':'))
+    if n == -1:
+        break
+    else:
+        r.append(n)
+    s = sum(r)
+    m = s/len(r)
+print(m)
